@@ -29,7 +29,16 @@ public class q6a {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		frame que = new frame("quetion");
+        
+        quetion quetion1 = new quetion();
+        quetion1.add(new frame("1+1=?"));
+        quetion1.add(new frame("1+3=?"));
+        quetion all = new quetion();
+        all.add(que);
+        all.add(quetion1);
+        
+        all.quetionset();
 	}
 
 }
